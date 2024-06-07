@@ -3,86 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment Writer Srilanka</title>
+    <title>Assignment Writer Srilanka - Shashikla Basnayaka</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
-            color: #333;
         }
         .container {
-            max-width: 800px;
-            margin: 20px auto;
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a, header h1 {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header h1 {
+            float: left;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header nav a {
+            margin: 0 15px;
+        }
+        .showcase {
+            background: #35424a;
+            color: #ffffff;
+            height: 300px;
+            text-align: center;
+            padding-top: 100px;
+        }
+        .showcase h1 {
+            font-size: 55px;
+            margin-top: 0;
+        }
+        .content {
             padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background: #ffffff;
+            margin-top: 20px;
         }
-        h1 {
-            color: #007BFF;
-        }
-        .contact-info, .services, .features {
+        .contact, .services, .about {
             margin-bottom: 20px;
         }
-        .services ul, .features ul {
-            list-style-type: none;
+        footer {
+            background: #333;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .contact-info, .social-media {
+            list-style: none;
             padding: 0;
         }
-        .services ul li, .features ul li {
-            background: #007BFF;
-            color: #fff;
-            padding: 10px;
-            margin-bottom: 5px;
-            border-radius: 5px;
+        .contact-info li, .social-media li {
+            margin-bottom: 10px;
         }
-        .contact-info a {
-            color: #007BFF;
+        .social-media li a {
+            color: #333;
             text-decoration: none;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Assignment Writer Srilanka</h1>
-        <div class="contact-info">
-            <p>📞 <a href="tel:+94786277605">+94 78 627 7605</a></p>
-            <p>📧 <a href="mailto:professionalwriting97@gmail.com">professionalwriting97@gmail.com</a></p>
-            <p>🪀 <a href="https://wa.me/message/BVG5BHMZAU3LM1">Contact us on WhatsApp</a></p>
+    <header>
+        <div class="container">
+            <h1>Assignment Writer Srilanka</h1>
+            <nav>
+                <a href="#about">About Me</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </nav>
         </div>
-        <div class="introduction">
-            <p>Unlock Your Academic Success with Expert Assignment Writing Services in Sri Lanka! 🎓</p>
-            <p>Are you overwhelmed with academic assignments? Struggling to balance your studies with other responsibilities? Look no further! We, at Academic Services, are here to ease your academic journey and propel you towards success. ✨</p>
-        </div>
-        <div class="features">
-            <h2>Our Features</h2>
-            <ul>
-                <li>⭕ On-Time Delivery</li>
-                <li>⭕ Quality Work</li>
-                <li>⭕ Plagiarism Free</li>
-                <li>⭕ Unlimited Revision</li>
-                <li>⭕ Low Price</li>
-            </ul>
-        </div>
-        <div class="services">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Academic Writing</li>
-                <li>Assignment Writing</li>
-                <li>Case Study</li>
-                <li>Essay Writing</li>
-                <li>Research Proposal</li>
-                <li>Reports</li>
-                <li>Thesis/Dissertation</li>
-                <li>Data Analysis</li>
-                <li>SPSS Analysis</li>
-                <li>Projects</li>
-            </ul>
-        </div>
-    </div>
-</body>
-</html>
+    </header>
 
+    <section class="showcase">
+        <div class="container">
+            <h1>Welcome to My Professional Writing Services</h1>
+            <p>On-Time Delivery | Quality Work | Plagiarism Free | Unlimited Revision | Low Price</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="about" class="about content">
+            <h2>About Me</h2>
+            <p>🔴 Shashikla Basnayaka<br>
+            🔴 Graduated Rajarata University</p>
+        </section>
+
+        <section id="services" class="services content">
+            <h2>Services Offered</h2>
+            <ul>
+                <li>📍 Academic Writing</li>
+                <li>📍 Assignment Writing</li>
+                <li>📍 Case Study</li>
+                <li>📍 Essay Writing</li>
+                <li>📍 Research Proposal</li>
+                <li>📍 Reports</li>
+                <li>📍 Thesis/ Dissertation</li>
+                <li>📍 Data Analysis</li>
+                <li>📍 SPSS Analysis</li>
+                <li>📍 Projects</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="contact content">
+            <h2>Contact Information</h2>
+            <ul class="contact-info">
+                <li>📧 Email: <a href="mailto:professionalwriting97@gmail.com">professionalwriting97@gmail.com</a></li>
+                <li>📞 Phone: <a href="tel:+94786277605">+94 78 627 7605</a></li>
+                <li>🪀 WhatsApp: <a href="https://wa.me/message/BVG5BHMZAU3LM1">Message Me</a></li>
+            </ul>
+        </section>
+    </div>
 
     <footer>
         <p>© 2024 Shashikla Basnayaka. All Rights Reserved.</p>
